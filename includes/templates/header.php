@@ -6,7 +6,7 @@ if(!isset($_SESSION)){
 }
 
 $auth = $_SESSION['login'] ?? false; // places holder
-var_dump($auth);
+// var_dump($auth);
 
 // Si $auth esta como true agregamos un enlace de 'cerrar sesion' en la navegacion. Ir mas abajo en el HTML
 

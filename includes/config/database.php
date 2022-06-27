@@ -19,10 +19,7 @@ function conectarDB() : mysqli {
     if (!$db){
         echo 'Error no se pudo conectar';
         exit; // para detener la ejecucion del codigo en caso de que la conexion no se establesca
-    } else {
-        echo 'Conectado';
-    }
-
+    } 
     return $db;    
 }
 
