@@ -1,0 +1,13 @@
+{
+    "name": "emir/bienes-raices",
+    "description": "Bienes Raices",
+    "authors": [
+        {
+            "name": "Luis",
+            "email": "correotaller278@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
